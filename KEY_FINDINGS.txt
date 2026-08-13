@@ -1,0 +1,18 @@
+PROJECT 2 – KEY FINDINGS
+
+1. 1,200 orders were analyzed from January 1, 2023 to June 30, 2025.
+2. Average order value was 1,053.97, compared with a median of 823.62, indicating influence from higher-value orders.
+3. Chair generated the highest total revenue (195,620.11), narrowly ahead of Printer (195,612.61).
+4. Laptop had the highest average order value (1,110.56).
+5. Credit Card had the highest revenue (263,847.63) and highest average order value (1,127.55).
+6. Instagram generated the highest order volume (259) and highest referral revenue (275,285.45).
+7. Facebook had the highest referral-source average order value (1,098.29).
+8. FREESHIP had the highest order count (313) and revenue (335,036.99) among coupon categories.
+9. Cancelled orders had the highest associated revenue (276,396.21) and average order value (1,105.58), requiring investigation.
+10. Eight high-value TotalPrice outliers were detected using IQR. They were retained because their values are consistent with Quantity × UnitPrice.
+11. UnitPrice had the strongest correlation with TotalPrice (0.717).
+12. Quantity had a positive correlation with TotalPrice (0.615).
+13. Quantity and UnitPrice were almost uncorrelated (0.015).
+
+IMPORTANT INTERPRETATION NOTE:
+Correlation and observed associations do not establish causation. Cancelled order value should not be described as lost revenue because refund/payment settlement data is unavailable.
